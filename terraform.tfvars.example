@@ -1,0 +1,7 @@
+# Copia este fichero como terraform.tfvars y rellénalo.
+# Son los valores comunes a todos los entornos: Terraform lo carga solo.
+prefijo    = "nombre-apellido"
+usar_floci = false
+
+# Solo con Floci: una AMI de las que aparecen en Floci UI (Compute)
+# ami_id = "ami-xxxxxxxx"
